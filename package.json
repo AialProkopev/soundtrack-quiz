@@ -6,7 +6,9 @@
   "scripts": {
     "start": "set NODE_ENV=development&&webpack serve",
     "build:dev": "set NODE_ENV=development&&webpack",
-    "build:prod": "set NODE_ENV=production&&webpack"
+    "build:prod": "set NODE_ENV=production&&webpack",
+    "lint": "eslint -c .eslintrc.js --ext .js .",
+    "lint:fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",
