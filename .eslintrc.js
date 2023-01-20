@@ -11,5 +11,8 @@ module.exports = {
   },
   rules: {
     'linebreak-style': ['error', 'windows'],
+    'no-useless-constructor': 'off',
+    'lines-between-class-members': 'off',
+    'class-methods-use-this': 'off',
   },
 };

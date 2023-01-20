@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import './styles/vars.scss';
+@import './styles/mixins.scss';
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: $black;
+}
+
 body {
-  background-color: aqua;
+  background-color: $white;
+}
+.header, .main, .footer {
+  padding: 0 40px;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: $white;
+}
+.main {
+  flex: 1 1 auto;
+  background-color: $darker-white;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  .github-icon {
+    width: 50px;
+  }
+  .school-icon {
+    height: 50px;
+  }
 }
