@@ -21,6 +21,9 @@
   "homepage": "https://github.com/AialProkopev/soundtrack-quiz#readme",
   "devDependencies": {
     "css-loader": "^6.7.3",
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.2",
